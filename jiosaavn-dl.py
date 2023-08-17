@@ -14,15 +14,13 @@ song_api = "https://www.jiosaavn.com/api.php?__call=webapi.get&token={}&type=son
 album_api = "https://www.jiosaavn.com/api.php?__call=webapi.get&token={}&type=album"
 playlist_api = "https://www.jiosaavn.com/api.php?__call=webapi.get&token={}&type=playlist&_format=json"
 lyrics_api = "https://www.jiosaavn.com/api.php?__call=lyrics.getLyrics&ctx=web6dot0&api_version=4&_format=json&_marker=0%3F_marker%3D0&lyrics_id="
-#album_song_rx = re.compile("https://www\.jiosaavn\.com/(album|song)/.+?/(.+)")
 album_song_rx = re.compile("https://www\\.jiosaavn\\.com/(album|song)/.+?/(.+)")
-#playlist_rx = re.compile("https://www\.jiosaavn\.com/s/playlist/.+/(.+)")
 playlist_rx = re.compile("https://www\\.jiosaavn\\.com/s/playlist/.+/(.+)")
 json_rx = re.compile("({.+})")
 
 logo = """
 ---------------------------------------------------------
-!!!!!!!!!    JioSaavn Downloader by Tanmoy     !!!!!!!!!!
+!!!!!!!!!!!!!!     JioSaavn Downloader     !!!!!!!!!!!!!!
 ---------------------------------------------------------                                                                        
 """
 
